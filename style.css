@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e;
+  color: #333;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 768px;
+  width: 100%;
+}
+
+.highlight {
+  color: #d43c2d;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.caption {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 32px 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 32px;
+}
+
+.spot {
+  margin-bottom: 40px;
+}
+
+.spot img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.spot h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.spot p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 10px;
+  color: #0073e6;
+  font-weight: 500;
+}
+
+.closing {
+  font-size: 0.95rem;
+  margin-top: 20px;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 40px;
+}
